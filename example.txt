@@ -1,0 +1,3 @@
+Additional content. I am writing this file with the echo statement in Windows Command Prompt. Screw Windows Powershell and their lengthy commands! 
+
+And I just used the notepad command to open this in the notepad!
