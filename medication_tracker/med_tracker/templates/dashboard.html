@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Dashboard</h2>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.medication.label }} {{ form.medication() }}
+    {{ form.dosage.label }} {{ form.dosage() }}
+    {{ form.submit() }}
+</form>
+<ul>
+{% for dose in doses %}
+    <li>{{ dose.medication }}: {{ dose.dosage }}</li>
+{% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,3 @@
+## Prompt to use with chatGPT 4
+
+1. i want to build a medication tracking app with python flask and firebase. It will work similar to a calorie tracker. A user will have a simple form to enter what medication they are taking and the quantity. Firebase will be used to handle user authentication and to handle and update the data in realtime. Every time the user enters a "dose" the dose will record the timestamp of when the dose was entered and will display on the screen. The doses will be tracked and grouped into day, week, month and year. I will have the functions necessary for the full operation of the app to be in seperate files to help with modularity and organization. Please give me ter file structure. and please provide me with the outline of the code. 

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+}
+
+#chat-window {
+    height: 80%;
+    overflow: auto;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#text-area {
+    height: 20%;
+}
+
+#note {
+    width: 80%;
+    height: 100%;
+}
+
+#send {
+    width: 20%;
+    height: 100%;
+    font-size: 20px;
+}
